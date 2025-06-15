@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+*.log
+*.sqlite3
+*.db
+
+# Virtual environments
+env/
+venv/
+ENV/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.coverage
+htmlcov/
+.cache/
+
+# dotenv
+.env
+.env.*
+
+# Node (gdyby przypadkiem frontend coś tu wrzucił)
+node_modules/
+dist/
+
+# Git
+.gitignore# środowiskowe pliki
+.env
+
+# katalogi i cache Pythona
+__pycache__/
+*.pyc
+
+# pliki środowiska virtualenv
+.venv/
+env/
+venv/
+
+# pliki edytora
+.vscode/
+.idea/
