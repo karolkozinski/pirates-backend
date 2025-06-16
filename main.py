@@ -3,4 +3,6 @@ from app.api import game
 
 app = FastAPI()
 
-app.include_router(game.router, prefix="/game")
+from routers import ships
+
+app.include_router(ships.router, prefix="/api")
